@@ -1,0 +1,21 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\nodejs\\node.exe',
+1 verbose cli   'C:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'whoami' ]
+2 info using npm@2.15.8
+3 info using node@v4.4.7
+4 verbose stack Error: this command requires you to be logged in.
+4 verbose stack     at EventEmitter.whoami (C:\nodejs\node_modules\npm\lib\whoami.js:42:18)
+4 verbose stack     at Object.commandCache.(anonymous function) (C:\nodejs\node_modules\npm\lib\npm.js:220:11)
+4 verbose stack     at EventEmitter.<anonymous> (C:\nodejs\node_modules\npm\bin\npm-cli.js:72:28)
+4 verbose stack     at nextTickCallbackWith0Args (node.js:420:9)
+4 verbose stack     at process._tickCallback (node.js:349:13)
+5 verbose cwd D:\_DEVELOPMENT\_GIT\domino-amd
+6 error Windows_NT 10.0.10586
+7 error argv "C:\\nodejs\\node.exe" "C:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "whoami"
+8 error node v4.4.7
+9 error npm  v2.15.8
+10 error code ENEEDAUTH
+11 error need auth this command requires you to be logged in.
+11 error need auth You need to authorize this machine using `npm adduser`
+12 verbose exit [ 1, true ]
