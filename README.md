@@ -270,3 +270,4 @@ This way you can avoid almost every stupid error you make in your code before ev
 **Designer is slow, unstable**, ibm's javascript editors are missing crucial functionalities and parse javascript plain wrong resulting in unusable "Outline" side panel (not that anyone need it). **Code on the other hand is crazy fast** (compared to designer). By my opinion, it is one of the best typescript/javascript IDEs and is really easy to extend giving you the tools and means to integrate it with literally everything. It is possible given the time to integrate Code so it can access resources directly in the nsf virtual filesystem. Imagine not having to kill and restart Designer every hour, hour and half because some "widget have been dismissed", because "Building workspace" bacame a neverending task ot just because Designer have been frozen for the past 5 minutes.
 
 ## Example modules
+Check out https://github.com/ldeninski/domino-amd-toolkit
